@@ -1,5 +1,4 @@
 # Virtual RALT Standalone
-===
 
 This is a standalone world simulating the [Robotic Assisted Living Testbed (RALT)](https://ralt.hw.ac.uk/).
 
@@ -8,7 +7,6 @@ Tested on Ubuntu 16.04, using ROS Kinetic and Gazebo 7.16.
 ![GitHub Logo](/doc/virtual_ralt.png)
 
 # Installation
-===
 
 Clone this repository into your workspace:
 
