@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<launch>
+        <arg name="world_name" default="virtual_ralt_standalone.world"/>
+        <arg name="world_path" default="$(find virtual_ralt_standalone)/worlds"/>
+
+        <arg name="gazebo_gui" default="true"/>
+
+        <include file="$(find gazebo_ros)/launch/empty_world.launch">
+                <arg name="debug" value="0"/>
+                <arg name="gui" value="$(arg gazebo_gui)"/>
+                <arg name="use_sim_time" value="true"/>
+                <arg name="headless" value="false"/>
+                <arg name="world_name" value="$(arg world_path)/$(arg world_name)" />
+                <arg name="paused" value="false"/>
+                <arg name="verbose" value="true"/>
+        </include>
+
+</launch>

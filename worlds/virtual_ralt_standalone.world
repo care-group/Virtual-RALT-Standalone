@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+
+<sdf version="1.5">
+	<world name="virtual-ralt">
+		<!-- Light -->
+		<include>
+			<uri>model://sun</uri>
+			<pose>0.3 0.2 5.0 0 0 0</pose>
+		</include>
+
+		<!-- Ground -->
+		<include>
+			<uri>model://ground_plane</uri>
+		</include>
+
+		<!-- The Virtual RALT Structure -->
+		<include>
+			<uri>file://ralt/structure</uri>
+		</include>
+	</world>
+</sdf>

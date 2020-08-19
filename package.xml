@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <name>virtual_ralt_standalone</name>
+  <version>0.0.0</version>
+  <description>The virtual_ralt_standalone package</description>
+
+  <maintainer email="ralt@todo.todo">ralt</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>gazebo_ros</run_depend>
+
+  <export>
+    <gazebo_ros gazebo_model_path="${prefix}/models"/>
+    <gazebo_ros gazebo_media_path="${prefix}"/>
+  </export>
+
+</package>

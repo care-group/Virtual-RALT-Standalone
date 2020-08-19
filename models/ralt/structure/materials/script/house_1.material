@@ -1,0 +1,16 @@
+material House_1/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture baseColor.png
+      }
+
+    }
+  }
+}
+
