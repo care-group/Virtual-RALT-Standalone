@@ -13,6 +13,7 @@ Clone this repository into your workspace:
 ```
 roscd; cd ..; cd src
 git clone https://github.com/care-group/Virtual-RALT-Standalone.git
+cd ..
 catkin_make
 roscd; cd..
 source devel/setup.bash
